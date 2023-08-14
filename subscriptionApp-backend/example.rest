@@ -1,0 +1,20 @@
+POST http://localhost:8800/api/auth/register 
+content-type: application/json
+
+{
+    "username" : "yugesh",
+    "email" : "yugesh@gmail.com",
+    "password" : "123456"
+}
+
+###
+
+POST http://localhost:8800/api/auth/login
+content-type: application/json
+
+{
+    "username" : "yugesh",
+    "password" : "123456"
+}
+
+###
